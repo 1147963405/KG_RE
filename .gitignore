@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# macOS
+.DS_Store
+._*
+
+# Environment
+.env
+venv/
+.venv/
+
+# Large model files (download separately)
+model/medical_re/model_re.pkl
+model/medical_re/pytorch_model.bin
